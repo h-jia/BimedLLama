@@ -9,7 +9,7 @@ which allows users to perform the training on a single GPU.
 
 The fine-tuning results have been submitted as a PEFT adapter and can be accessed here:
 
-- [Bio-Medical-Llama-3-8B-peft_10]()
+- [Bio-Medical-Llama-3-8B-peft_10](https://github.com/h-jia/BimedLLama/tree/main/flowertune-eval-medical/peft-adapter)
 
 ## Methodology
 
