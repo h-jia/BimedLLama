@@ -87,3 +87,11 @@ flwr run
 ## Model saving
 
 The global PEFT model checkpoints are saved every 5 rounds after aggregation on the sever side as default, which can be specified with `train.save-every-round` under [tool.flwr.app.config] entry in `pyproject.toml`.
+
+## Acknowledgements
+
+This code is based on the following repositories:
+- [FlowerTune-Qwen2.5-7B-Instruct-Medical](https://github.com/ethicalabs-ai/FlowerTune-Qwen2.5-7B-Instruct-Medical)
+- [GCCL-Medical-LLM2-FlowerTune](https://github.com/gachon-CCLab/GCCL-Medical-LLM2-FlowerTune)
+
+We thank the authors for their valuable contributions to the medical LLM fine-tuning community.
