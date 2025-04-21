@@ -45,14 +45,6 @@ For the **Bio-Medical-Llama-3-8B** model, we adopted the following fine-tuning m
 
 When bf16 and tf32 are enabled, model weights are stored in bf16 format, while gradients are computed in half-precision and converted to full 32-bit precision for updates.
 
-### Training Loss Visualization
-
-Below is the training loss plot from the experiment:
-
-![Training Loss](flowertune-eval-medical/benchmarks/train_loss.png)
-
-This methodology enabled efficient fine-tuning within constrained resources while ensuring competitive performance.
-
 ### Evaluation Results
 
 - **pubmedqa**: 0.6580
