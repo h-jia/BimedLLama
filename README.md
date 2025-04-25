@@ -47,6 +47,7 @@ When bf16 and tf32 are enabled, model weights are stored in bf16 format, while g
 
 ### Evaluation Results
 
+Hardware: NVIDIA A100 (1 X GPU)
 
 - **pubmedqa**: 0.6580
 - **medqa**: 0.6031
